@@ -1,0 +1,6 @@
+type=command
+command=echo 'h'
+command.1=echo 'e'
+command.2=echo 'l'
+command.3=echo 'l'
+command.4=echo 'o'

@@ -1,0 +1,2 @@
+#! /bin/bash
+mysql -u azkaban -p'azkaban' -h 192.168.10.216 -P 3306 -e "use azkaban;load data local infile '/home/lanyz/loaddata.txt' INTO TABLE importtest FIELDS TERMINATED BY '|' lines terminated by '\n';"

@@ -1,0 +1,2 @@
+type=command
+command=python yarnWarn.py

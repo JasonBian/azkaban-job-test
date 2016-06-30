@@ -1,0 +1,2 @@
+type=command
+command=hadoop jar /home/lanyz/hadoop-mapreduce-examples-2.2.0.jar wordcount hdfs://192.168.10.84:8020/user/lanyz/input/test1 hdfs://192.168.10.84:8020/user/lanyz/output

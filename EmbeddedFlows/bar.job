@@ -1,0 +1,4 @@
+#bar.job
+type=command
+dependencies=foo
+command=echo bar

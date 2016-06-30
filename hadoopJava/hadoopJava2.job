@@ -1,0 +1,8 @@
+type=hadoopJava
+job.class=org.apache.hadoop.examples
+classpath=/home/lanyz/azkaban-executor-2.5.0/lib/*,/opt/cloudera/parcels/CDH-5.4.7-1.cdh5.4.7.p0.3/lib/hadoop/lib/*.jar,/opt/cloudera/parcels/CDH-5.4.7-1.cdh5.4.7.p0.3/lib/hadoop/hadoop-common-2.6.0-cdh5.4.7.jar,/opt/cloudera/parcels/CDH-5.4.7-1.cdh5.4.7.p0.3/lib/hadoop/hadoop-auth-2.6.0-cdh5.4.7.jar
+main.args=hdfs://192.168.10.84:8020/user/lanyizheng/input/test hdfs://192.168.10.84:8020/user/lanyizheng/output
+Method.run=main();
+force.output.overwrite=true
+input.path=hdfs://192.168.10.84:8020/user/lanyizheng/input/test
+output.path=hdfs://192.168.10.84:8020/user/lanyizheng/output

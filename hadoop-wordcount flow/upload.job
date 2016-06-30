@@ -1,0 +1,3 @@
+#upload.job
+type=command
+command=hadoop fs -put /home/lanyz/testwords /user/lanyz/input

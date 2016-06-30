@@ -1,0 +1,3 @@
+type=hive
+hive.script=hivescript.txt
+user.to.proxy=lanyz
